@@ -1,0 +1,87 @@
+CACHE MANIFEST
+# v1.1 2014-10-31
+# The first manifest
+
+CACHE:
+# 1. All media in _static directory
+../_static/first.png
+../_static/last.png
+../_static/next.png
+../_static/pause.png
+../_static/prev.png
+
+# 2. All Javascript in _files directory
+_files/MathJax.js
+_files/activecode.js
+_files/all.js
+_files/animationbase.js
+_files/assess.js
+_files/bookfuncs.js
+_files/bootstrap-sphinx.js
+_files/bootstrap.min.js
+_files/codemirror.js
+_files/d3.v2.min.js
+_files/doctools.js
+_files/ga.js
+_files/jquery-fix.js
+_files/jquery-migrate-1.2.1.min.js
+_files/jquery-ui-1.10.3.custom.min.js
+_files/jquery-ui.min.js
+_files/jquery.ba-bbq.min.js
+_files/jquery.highlight.js
+_files/jquery.hotkey.js
+_files/jquery.idle-timer.js 
+_files/jquery.js
+_files/jquery.js
+_files/jquery.jsPlumb-1.3.10-all-min.js
+_files/jquery.min.js
+_files/lis.js
+_files/parsons-noconflict.js
+_files/parsons.js
+_files/poll.js
+_files/prettify.js
+_files/processing-1.4.1.min.js
+_files/prum.min.js
+_files/python.js
+_files/pytutor.js
+_files/rangy-core.js
+_files/rangy-cssclassapplier.js
+_files/rangy-textrange.js
+_files/skulpt-stdlib.js
+_files/skulpt.min.js
+_files/underscore-min.js
+_files/underscore.js
+_files/user-highlights.js
+_files/waypoints.min.js
+_files/widgets.js
+
+
+NETWORK:
+# 3. All other files in _files directory
+_files/activecode.css
+_files/basic(1).css
+_files/basic.css
+_files/bootstrap-sphinx.css
+_files/bootstrap.min.css
+_files/codemirror.css
+_files/f.gif
+_files/follow_button.1381275758.htm
+_files/jot
+_files/jquery-ui-1.10.3.custom.min.css
+_files/like.htm
+_files/parsons.css
+_files/poll.css
+_files/prettify.css
+_files/pygments.css
+_files/pytutor.css
+_files/runestone-custom-sphinx-bootstrap.css
+_files/tabbedstuff.css
+_files/user-highlights.css
+_files/video.css
+_files/widget.htm
+_files/xd_arbiter(1).htm
+_files/xd_arbiter.htm
+
+FALLBACK:
+# 4. Fallback html file
+/_files/ fallback.html
