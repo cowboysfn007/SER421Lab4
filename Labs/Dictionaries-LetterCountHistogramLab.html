@@ -326,6 +326,19 @@ times each letter occurs.  Make sure it is in alphabetical order from left to ri
 
 </script>
 
+<script type="text/javascript">
+    window.addEventListener('load', function(e) {
+
+      window.applicationCache.addEventListener('updateready', function(e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Updated Version of App Cache Manifest found, would you like to reload the page?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);    
+</script>
 
 
 

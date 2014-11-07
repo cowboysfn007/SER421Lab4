@@ -1,6 +1,6 @@
 CACHE MANIFEST
-# v1.1 2014-10-31
-# The first manifest
+# v1.1 2014-11-6
+# The first manifest dsfds
 
 CACHE:
 # 1. All media in _static directory
@@ -58,30 +58,31 @@ _files/widgets.js
 
 NETWORK:
 # 3. All other files in _files directory
-_files/activecode.css
-_files/basic(1).css
-_files/basic.css
-_files/bootstrap-sphinx.css
-_files/bootstrap.min.css
-_files/codemirror.css
-_files/f.gif
-_files/follow_button.1381275758.htm
-_files/jot
-_files/jquery-ui-1.10.3.custom.min.css
-_files/like.htm
-_files/parsons.css
-_files/poll.css
-_files/prettify.css
-_files/pygments.css
-_files/pytutor.css
-_files/runestone-custom-sphinx-bootstrap.css
-_files/tabbedstuff.css
-_files/user-highlights.css
-_files/video.css
-_files/widget.htm
-_files/xd_arbiter(1).htm
-_files/xd_arbiter.htm
+_files/*
+#_files/activecode.css
+#_files/basic(1).css
+#_files/basic.css
+#_files/bootstrap-sphinx.css
+#_files/bootstrap.min.css
+#_files/codemirror.css
+#_files/f.gif
+#_files/follow_button.1381275758.htm
+#_files/jot
+#_files/jquery-ui-1.10.3.custom.min.css
+#_files/like.htm
+#_files/parsons.css
+#_files/poll.css
+#_files/prettify.css
+#_files/pygments.css
+#_files/pytutor.css
+#_files/runestone-custom-sphinx-bootstrap.css
+#_files/tabbedstuff.css
+#_files/user-highlights.css
+#_files/video.css
+#_files/widget.htm
+#_files/xd_arbiter(1).htm
+#_files/xd_arbiter.htm
 
 FALLBACK:
 # 4. Fallback html file
-/_files/ fallback.html
+/Labs fallback.html

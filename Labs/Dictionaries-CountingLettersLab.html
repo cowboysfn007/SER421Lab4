@@ -396,6 +396,20 @@ key that is not in the dictionary has a count of 0.</p>
   });
 
 </script>
+    
+<script type="text/javascript">
+    window.addEventListener('load', function(e) {
+
+      window.applicationCache.addEventListener('updateready', function(e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Updated Version of App Cache Manifest found, would you like to reload the page?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);    
+</script>
 
   
 </body></html>
